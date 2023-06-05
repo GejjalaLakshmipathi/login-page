@@ -54,7 +54,5 @@ with st.form("register_form"):
                 "mobile_number": mobile_number,
                 "timestamp": datetime.now(),
             },
-        )```
-
-In this example, the `twilio` package is used to send the OTP to the provided mobile number. You will need to replace the `account_sid`, `auth_token`, and `from_` values with your own Twilio account details.
+        )
 
